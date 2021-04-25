@@ -1,0 +1,5 @@
+큐트 너구리 꼬리 의상(남성)
+male_wear_2010contest_japan.dds
+BODY
+2
+3

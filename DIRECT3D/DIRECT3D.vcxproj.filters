@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D">
+      <UniqueIdentifier>{95325988-a50f-4749-94ed-4d2bc5e60ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. WinMain">
+      <UniqueIdentifier>{0372496e-c8b8-43cb-b97e-239eda74f9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. MainGame">
+      <UniqueIdentifier>{4070dca2-43a1-435b-b595-ff0e466568bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\폰트">
+      <UniqueIdentifier>{325bf269-d2a6-4839-8936-25e0360c0394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\유틸">
+      <UniqueIdentifier>{0692eed3-8e21-43fb-ac01-5366053975eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\유틸\카메라">
+      <UniqueIdentifier>{7a7ad821-727a-4fd7-a0f7-39204cd3e105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\유틸\트랜스폼">
+      <UniqueIdentifier>{25d30188-5bdd-4682-b595-02fa78e9dc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\리소스">
+      <UniqueIdentifier>{97616600-27f4-414f-bb08-ff5909ba41b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\xMesh">
+      <UniqueIdentifier>{1fd2f27f-d96f-4d96-a416-9f794af868bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\광원">
+      <UniqueIdentifier>{1f27189a-7943-49d0-9436-f8c467511e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\바운드박스">
+      <UniqueIdentifier>{13869c4e-39b7-47e9-a2d3-cf58d731d7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\배이스오브젝트">
+      <UniqueIdentifier>{b6ef80f4-61b5-4ce8-a3a3-dcd361770a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\물리">
+      <UniqueIdentifier>{68557c88-101c-4d88-ac3a-fd969b47add4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\지형">
+      <UniqueIdentifier>{c6eba2f0-46d9-47f9-b687-96758a5f7138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\skinnedAnimation">
+      <UniqueIdentifier>{d685ba38-9854-4ed4-b51e-5acece2c618d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\절두체 컬링">
+      <UniqueIdentifier>{995727cc-ab3b-4ba0-a318-e109e2c668d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\스프라이트">
+      <UniqueIdentifier>{48361352-68e0-45bf-a0c1-90dbcc43b3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D">
+      <UniqueIdentifier>{a0f6acc6-ce44-42fc-a267-ac7bacee9153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\Player">
+      <UniqueIdentifier>{5e3e8878-c1ec-4a38-8f1a-d9a3fb1ce075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameFrameWork3D\물리\기즈모">
+      <UniqueIdentifier>{00c93867-d385-4516-bec3-0c9a787929f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\equipManager">
+      <UniqueIdentifier>{f9b08ccb-29c8-42df-83eb-ebdf5fdc9733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\item">
+      <UniqueIdentifier>{99491ea9-7c2c-4f99-8e54-fd4fcc333d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\item\MeshParts">
+      <UniqueIdentifier>{3d451500-641a-4def-ad78-cfbcabbacff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\dyeing">
+      <UniqueIdentifier>{72afbbb7-862e-4fa5-a084-15dc93658749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\Field">
+      <UniqueIdentifier>{b156dad8-daf0-4342-ae2c-4f5c38d80714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\Monster">
+      <UniqueIdentifier>{a5d63782-fd4b-4216-96da-53caed3c8ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\Monster\Fox">
+      <UniqueIdentifier>{ed8f8e49-df1a-4eb2-b2f1-56b0af660d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\Monster\Woo">
+      <UniqueIdentifier>{b2b5ea0d-9888-484c-87e6-a742b052ed5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\UI">
+      <UniqueIdentifier>{20e6aded-59e0-401c-ad27-b3889a038157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\Player\pet_cloud">
+      <UniqueIdentifier>{b4bb77a9-0347-4979-983e-c42ece824673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\optionManager">
+      <UniqueIdentifier>{eaa2ede2-2008-4321-892d-b11b20b75cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\Scene">
+      <UniqueIdentifier>{6673bf40-7f14-4d81-b6ef-b2ada7e30fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\UI\Inventory">
+      <UniqueIdentifier>{cf72553a-ffdf-4f17-abaa-f1dfd1f933cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\UI\Inventory\PlayerInventory">
+      <UniqueIdentifier>{d37ba0a2-d8ec-49e6-a369-067bc3f7f142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\UI\Inventory\ShopInventory">
+      <UniqueIdentifier>{040a0933-7b7d-4d41-90b8-de4ea5c4a046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\ShadowObjectManager">
+      <UniqueIdentifier>{6a3b82c0-d0e2-4486-bf8d-feb752852641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\Monster\Orge">
+      <UniqueIdentifier>{151d5d65-6a0c-4742-9157-a74cc1ad2016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\UI\progressBar">
+      <UniqueIdentifier>{50bea720-c75b-4381-8a7a-d44f78ee54bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 3D\effectManager">
+      <UniqueIdentifier>{362feed6-e696-4e24-bd2f-96503f51680d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>00. WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="deviceManager.h">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>02. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>02. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="fontManager.h">
+      <Filter>01. GameFrameWork3D\폰트</Filter>
+    </ClInclude>
+    <ClInclude Include="gizmoManager.h">
+      <Filter>01. GameFrameWork3D\물리\기즈모</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>01. GameFrameWork3D\유틸\카메라</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>01. GameFrameWork3D\유틸\트랜스폼</Filter>
+    </ClInclude>
+    <ClInclude Include="MYUTIL.h">
+      <Filter>01. GameFrameWork3D\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="resourceManager.h">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClInclude>
+    <ClInclude Include="rmShader.h">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClInclude>
+    <ClInclude Include="rmTexture.h">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClInclude>
+    <ClInclude Include="xMesh.h">
+      <Filter>01. GameFrameWork3D\xMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="rmStaticMesh.h">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClInclude>
+    <ClInclude Include="boundBox.h">
+      <Filter>01. GameFrameWork3D\바운드박스</Filter>
+    </ClInclude>
+    <ClInclude Include="boundSphere.h">
+      <Filter>01. GameFrameWork3D\바운드박스</Filter>
+    </ClInclude>
+    <ClInclude Include="baseObject.h">
+      <Filter>01. GameFrameWork3D\배이스오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="lightDirection.h">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClInclude>
+    <ClInclude Include="lightPoint.h">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClInclude>
+    <ClInclude Include="physicsManager.h">
+      <Filter>01. GameFrameWork3D\물리</Filter>
+    </ClInclude>
+    <ClInclude Include="quadTree.h">
+      <Filter>01. GameFrameWork3D\지형</Filter>
+    </ClInclude>
+    <ClInclude Include="terrain.h">
+      <Filter>01. GameFrameWork3D\지형</Filter>
+    </ClInclude>
+    <ClInclude Include="skinnedAnimation.h">
+      <Filter>01. GameFrameWork3D\skinnedAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="rmSkinnedMesh.h">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>01. GameFrameWork3D\절두체 컬링</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteManager.h">
+      <Filter>01. GameFrameWork3D\스프라이트</Filter>
+    </ClInclude>
+    <ClInclude Include="logManager.h">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>03. 3D\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="meshInfo.h">
+      <Filter>03. 3D\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>03. 3D\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="skill.h">
+      <Filter>03. 3D\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="baseItem.h">
+      <Filter>03. 3D\item</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>03. 3D\item</Filter>
+    </ClInclude>
+    <ClInclude Include="partItem.h">
+      <Filter>03. 3D\item\MeshParts</Filter>
+    </ClInclude>
+    <ClInclude Include="boneHierarchy.h">
+      <Filter>01. GameFrameWork3D\skinnedAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="tirchonailField.h">
+      <Filter>03. 3D\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet_cloud.h">
+      <Filter>03. 3D\Player\pet_cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="xMeshSkinned.h">
+      <Filter>01. GameFrameWork3D\xMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="optionManager.h">
+      <Filter>03. 3D\optionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="xMeshStatic.h">
+      <Filter>01. GameFrameWork3D\xMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mabinogi.h">
+      <Filter>03. 3D\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="equip.h">
+      <Filter>03. 3D\item</Filter>
+    </ClInclude>
+    <ClInclude Include="equipManager.h">
+      <Filter>03. 3D\equipManager</Filter>
+    </ClInclude>
+    <ClInclude Include="invenSlot.h">
+      <Filter>03. 3D\UI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="equipSlot.h">
+      <Filter>03. 3D\UI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.h">
+      <Filter>03. 3D\UI\Inventory\PlayerInventory</Filter>
+    </ClInclude>
+    <ClInclude Include="shopInventory.h">
+      <Filter>03. 3D\UI\Inventory\ShopInventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowObjectManager.h">
+      <Filter>03. 3D\ShadowObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="dyeing.h">
+      <Filter>03. 3D\dyeing</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolf01.h">
+      <Filter>03. 3D\Monster\Woo</Filter>
+    </ClInclude>
+    <ClInclude Include="Orge.h">
+      <Filter>03. 3D\Monster\Orge</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>03. 3D\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="baseProgressBar.h">
+      <Filter>03. 3D\UI\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteProgress.h">
+      <Filter>03. 3D\UI\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>03. 3D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>03. 3D\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_fox.h">
+      <Filter>03. 3D\Monster\Fox</Filter>
+    </ClInclude>
+    <ClInclude Include="billboardProgress.h">
+      <Filter>03. 3D\UI\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClInclude>
+    <ClInclude Include="damageEffect.h">
+      <Filter>03. 3D\effectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>03. 3D\effectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Golem.h">
+      <Filter>03. 3D\Monster\Woo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="deviceManager.cpp">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>00. WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>00. WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>02. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>02. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="fontManager.cpp">
+      <Filter>01. GameFrameWork3D\폰트</Filter>
+    </ClCompile>
+    <ClCompile Include="gizmoManager.cpp">
+      <Filter>01. GameFrameWork3D\물리\기즈모</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>01. GameFrameWork3D\유틸\카메라</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>01. GameFrameWork3D\유틸\트랜스폼</Filter>
+    </ClCompile>
+    <ClCompile Include="MYUTIL.cpp">
+      <Filter>01. GameFrameWork3D\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="rmShader.cpp">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClCompile>
+    <ClCompile Include="rmTexture.cpp">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClCompile>
+    <ClCompile Include="rmStaticMesh.cpp">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClCompile>
+    <ClCompile Include="boundBox.cpp">
+      <Filter>01. GameFrameWork3D\바운드박스</Filter>
+    </ClCompile>
+    <ClCompile Include="boundSphere.cpp">
+      <Filter>01. GameFrameWork3D\바운드박스</Filter>
+    </ClCompile>
+    <ClCompile Include="baseObject.cpp">
+      <Filter>01. GameFrameWork3D\배이스오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="lightDirection.cpp">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClCompile>
+    <ClCompile Include="lightPoint.cpp">
+      <Filter>01. GameFrameWork3D\광원</Filter>
+    </ClCompile>
+    <ClCompile Include="physicsManager.cpp">
+      <Filter>01. GameFrameWork3D\물리</Filter>
+    </ClCompile>
+    <ClCompile Include="quadTree.cpp">
+      <Filter>01. GameFrameWork3D\지형</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <Filter>01. GameFrameWork3D\지형</Filter>
+    </ClCompile>
+    <ClCompile Include="skinnedAnimation.cpp">
+      <Filter>01. GameFrameWork3D\skinnedAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="rmSkinnedMesh.cpp">
+      <Filter>01. GameFrameWork3D\리소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>01. GameFrameWork3D\절두체 컬링</Filter>
+    </ClCompile>
+    <ClCompile Include="spriteManager.cpp">
+      <Filter>01. GameFrameWork3D\스프라이트</Filter>
+    </ClCompile>
+    <ClCompile Include="logManager.cpp">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>03. 3D\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="meshInfo.cpp">
+      <Filter>03. 3D\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>03. 3D\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>03. 3D\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>03. 3D\item</Filter>
+    </ClCompile>
+    <ClCompile Include="partItem.cpp">
+      <Filter>03. 3D\item\MeshParts</Filter>
+    </ClCompile>
+    <ClCompile Include="boneHierarchy.cpp">
+      <Filter>01. GameFrameWork3D\skinnedAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="tirchonailField.cpp">
+      <Filter>03. 3D\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet_cloud.cpp">
+      <Filter>03. 3D\Player\pet_cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="xMeshSkinned.cpp">
+      <Filter>01. GameFrameWork3D\xMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="optionManager.cpp">
+      <Filter>03. 3D\optionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="xMeshStatic.cpp">
+      <Filter>01. GameFrameWork3D\xMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="mabinogi.cpp">
+      <Filter>03. 3D\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="equip.cpp">
+      <Filter>03. 3D\item</Filter>
+    </ClCompile>
+    <ClCompile Include="equipManager.cpp">
+      <Filter>03. 3D\equipManager</Filter>
+    </ClCompile>
+    <ClCompile Include="invenSlot.cpp">
+      <Filter>03. 3D\UI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="equipSlot.cpp">
+      <Filter>03. 3D\UI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory.cpp">
+      <Filter>03. 3D\UI\Inventory\PlayerInventory</Filter>
+    </ClCompile>
+    <ClCompile Include="shopInventory.cpp">
+      <Filter>03. 3D\UI\Inventory\ShopInventory</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowObjectManager.cpp">
+      <Filter>03. 3D\ShadowObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="dyeing.cpp">
+      <Filter>03. 3D\dyeing</Filter>
+    </ClCompile>
+    <ClCompile Include="Wolf01.cpp">
+      <Filter>03. 3D\Monster\Woo</Filter>
+    </ClCompile>
+    <ClCompile Include="Orge.cpp">
+      <Filter>03. 3D\Monster\Orge</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>03. 3D\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="spriteProgress.cpp">
+      <Filter>03. 3D\UI\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>03. 3D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>03. 3D\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_fox.cpp">
+      <Filter>03. 3D\Monster\Fox</Filter>
+    </ClCompile>
+    <ClCompile Include="billboardProgress.cpp">
+      <Filter>03. 3D\UI\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>01. GameFrameWork3D</Filter>
+    </ClCompile>
+    <ClCompile Include="damageEffect.cpp">
+      <Filter>03. 3D\effectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>03. 3D\effectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Golem.cpp">
+      <Filter>03. 3D\Monster\Woo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="읽어보세요.txt">
+      <Filter>03. 3D</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
